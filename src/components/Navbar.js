@@ -2,10 +2,11 @@ import React from "react"
 import logo from "../logo.jpg" 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
-
+import { Link } from "react-scroll"
 export const Navbar = () => {
     return (
-        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+      
+        <nav class="navbar navbar-expand-lg navbar-fixed-top navbar-dark navbar-full">
         <div class="container">
           <a class="navbar-brand" href="#">
           <img class="logo" src={logo} alt="logo" />
@@ -22,13 +23,13 @@ export const Navbar = () => {
                 <a class="nav-link" href="#">About me</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Services</a>
+                <a class="nav-link" href="#">Projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Experience</a>
+                <Link class="nav-link" to="ExperienceSection">Experience</Link>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contacts</a>
+                <Link class="nav-link" to="contact">Contacts</Link>
               </li>
             </ul>
           </div>

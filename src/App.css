@@ -7,12 +7,23 @@ body{
 :root {
   --primary-white : #fff;
   --primary-orange : #f9ab00;
+  --primary-dark : rgba(255,255,255,0);
+  --primary-red : #ef4035;
+  --primary-hover-red : #f33501;
+  --primary-blue : 	hsla(175, 94%, 52%, 0.945);
+  --primary-shining-blue : #d0d9d8;
 }
 
 /*********************NAVBAR*************************/
+
+
+nav{
+  z-index: 2;
+  background-color: #000000 !important;
+}
 .logo{
   width: 80px;
-  margin-top: 25px;
+  margin-top: 10px;
 }
 
 /**********************MENU LINKS*************************/
@@ -33,21 +44,207 @@ nav a.nav-link{
 .navbar-brand{
   max-width: 17.25rem;
   padding: 0 !important;
-  height: 6rem !important;
+  height: 4rem !important;
 }
 
-/* .navbar-nav > li > a.active , .navbar-nav > li > a :focus{
-  border-top: 3px 
-  color : var(--primary-orange);
-} */
+
 
 .navbar-nav > li > a.active:focus{
   border-bottom: 3px solid var(--primary-orange);
-  /* background-color: #f9ab00; */
 }
 .navbar-nav > li > a:hover{
   border-bottom: 3px solid var(--primary-orange);
-  /* background-color: #f9ab00; */
 }
 
 
+/*********************HEADER***************************/
+
+.header-wraper{
+  position: relative;
+  background: url(wall_and_laptop_background.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+ }
+
+ 
+.main-info{
+  display: flex;
+  position:absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 5;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+.main-info h1{
+  color: var(--primary-orange);
+  text-align: center;
+  font-family: "ROBOTO Condensed" sans-serif;
+  margin-top: 30px;
+}
+
+.myimage{
+  margin-top: 25px;
+  z-index: 2;
+}
+
+
+/************TYPED TEXT*******************/
+
+.typed-text{
+  font-size: 3rem;
+  color: var(--primary-shining-blue) !important;
+}
+
+/************HEADER MAIN OFFER BUTTON*******************/
+
+.btn-main-offer{
+  border: 1px solid var(--primary-red);  
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 10px 12px 12px 12px;
+  color: var(--primary-white);
+  margin-top: 2rem;
+}
+
+/************PARTICLE JS*******************/
+
+.tsparticles-canvas-el{
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+}
+
+
+
+/*********************Contacts***************/
+
+.c-contact {
+  margin-left: 300px;
+  margin-top: 30px;
+  margin-right: 300px;
+  margin-bottom: 100px;
+}
+.c-contact h2 {
+  margin-top: 2rem;
+  text-align: center;
+}
+.c-contact__form {
+  margin-top: 1rem;
+  justify-content: center;
+
+}
+.c-contact__form label, .c-contact__form input, .c-contact__form textarea {
+  display: block;
+  width: 100%;
+  padding: 0.25rem;
+}
+.c-contact__form label {
+  margin-top: 0.25rem;
+}
+.c-contact__form textarea {
+  height: auto;
+}
+.c-contact__form button {
+  display: block;
+  padding: 0.5rem 2rem;
+  margin-top: 1rem;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  font-weight: bold;
+  color: white;
+  background-color: darkturquoise;
+  position:absolute;
+
+  
+}
+
+
+/***************footer*******************/
+
+.footer{
+  justify-content: center;
+  background-color: darkslategray;
+  align-items: center;
+  text-align: center;
+}
+.main-infoo{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: darkslategray;
+  z-index: 2;
+  
+}
+.name{
+  margin-bottom: 20px;
+  color: #d0d9d8 !important;
+  background-color: darkslategray;
+}
+
+/******************project**********************/
+
+
+.project-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #d0d9d8;
+  margin: 30px;
+}
+
+
+.project-info{
+  background-color: #d0d9d8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+.project-info h1{
+  background-color: #d0d9d8;
+  margin-top: 50px;
+  color: #000;
+  
+}
+
+.card-view{
+  margin: 50px;
+  background-color: #fff;
+}
+
+
+/**************** card******************/
+.cards-container{
+  width: 300px;
+  overflow: hidden;
+  box-shadow: 0px 0px 15px -5px;
+  box-shadow: #fff;
+  transition: 0.3s;
+  animation: ease-in;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.image-container img{
+  overflow: hidden;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.cards-container:hover{
+  transform: scale(1.1);
+  box-shadow: 0px 0px 15px 0px;
+}
