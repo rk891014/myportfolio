@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Card({title,imageUrl,body}) {
+function Card({title,imageUrl,body,btntext}) {
     return (
         <div className = "cards-container">
             <div className= "image-container">
@@ -12,6 +12,7 @@ function Card({title,imageUrl,body}) {
             <div className ="card-body">
                 <p>{body}</p>
             </div>
+            <a href="https://rkrjptrohit@gmail.com" target="_blank" className="btn-main-offer">{btntext}</a>
         </div>
     )
 }

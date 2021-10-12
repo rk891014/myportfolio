@@ -3,12 +3,11 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import { Navbar } from './components/Navbar';
 import Header from './components/Header';
 import Particles from 'react-particles-js';
-import { Stroke } from 'tsparticles/Options/Classes/Particles/Stroke';
 import {Experience} from "./components/Experience";
 import {Contact} from "./components/Contact";
 import {Footer} from "./components/Footer";
 import {Myprojects} from "./components/Myprojects";
-
+import {AboutMe} from "./components/AboutMe";
 
 function App() {
   return (
@@ -36,8 +35,11 @@ function App() {
                 }} />
     <Navbar/>
     <Header/>
-    {/* <Experience/> */}
+    
+    <AboutMe/>
+    
     <Myprojects/>
+    <Experience/>
     <Contact/>
     <Footer/>
     

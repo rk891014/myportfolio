@@ -23,7 +23,7 @@ nav{
 }
 .logo{
   width: 80px;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 /**********************MENU LINKS*************************/
@@ -55,7 +55,9 @@ nav a.nav-link{
 .navbar-nav > li > a:hover{
   border-bottom: 3px solid var(--primary-orange);
 }
-
+.logo h4{
+  font-size: 15px;
+}
 
 /*********************HEADER***************************/
 
@@ -100,16 +102,7 @@ nav a.nav-link{
   color: var(--primary-shining-blue) !important;
 }
 
-/************HEADER MAIN OFFER BUTTON*******************/
 
-.btn-main-offer{
-  border: 1px solid var(--primary-red);  
-  text-transform: uppercase;
-  border-radius: 0;
-  padding: 10px 12px 12px 12px;
-  color: var(--primary-white);
-  margin-top: 2rem;
-}
 
 /************PARTICLE JS*******************/
 
@@ -125,14 +118,18 @@ nav a.nav-link{
 /*********************Contacts***************/
 
 .c-contact {
-  margin-left: 300px;
   margin-top: 30px;
-  margin-right: 300px;
   margin-bottom: 100px;
+  flex-direction: column;
+  align-items: center;
+  max-width: 50%;
+  justify-content: center;
+  margin-left: 250px;
 }
 .c-contact h2 {
   margin-top: 2rem;
   text-align: center;
+  
 }
 .c-contact__form {
   margin-top: 1rem;
@@ -143,6 +140,8 @@ nav a.nav-link{
   display: block;
   width: 100%;
   padding: 0.25rem;
+  align-items: center;
+  justify-content: center;
 }
 .c-contact__form label {
   margin-top: 0.25rem;
@@ -170,23 +169,33 @@ nav a.nav-link{
 
 .footer{
   justify-content: center;
-  background-color: darkslategray;
+  background-color: rgb(32, 46, 46);
   align-items: center;
   text-align: center;
+  height: 120px;
+  background-color: darkslategray;
+  justify-content: center;
+  align-items: center;
 }
 .main-infoo{
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  display: inline-block;
   background-color: darkslategray;
-  z-index: 2;
+  z-index: 1;
   
+}
+.main-infoo myimage1{
+  margin-right: 20px;
 }
 .name{
   margin-bottom: 20px;
   color: #d0d9d8 !important;
   background-color: darkslategray;
+  margin-top: 20px;
+  
 }
 
 /******************project**********************/
@@ -194,11 +203,11 @@ nav a.nav-link{
 
 .project-container{
   display: flex;
-  flex-direction: row;
   align-items: center;
-  justify-content: center;
   background-color: #d0d9d8;
-  margin: 30px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
 }
 
 
@@ -206,9 +215,10 @@ nav a.nav-link{
   background-color: #d0d9d8;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   z-index: 2;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .project-info h1{
@@ -247,4 +257,94 @@ nav a.nav-link{
 .cards-container:hover{
   transform: scale(1.1);
   box-shadow: 0px 0px 15px 0px;
+}
+/************HEADER MAIN OFFER BUTTON*******************/
+
+.btn-main-offer{
+  border: 1px solid var(--primary-red);  
+  text-transform: uppercase;
+  border-radius: 8px;
+  padding: 5px 5px 5px 5px;
+  /* color: var(--primary-white); */
+  margin-top: 2rem;
+  width: 100px;
+  justify-content: center;
+  margin-bottom: 30px;
+  align-items: center;
+  margin-top: -10px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 100px;
+}
+
+/***********************About***********************/
+
+.about-info{
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 2;
+}
+
+
+.about-info h1{
+  margin-top: 60px;
+
+}
+
+.about-images{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.about-info h4{
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+  margin-top: 40px;
+  font-size: 18px !important;
+}
+/*********************progressbar************************/
+
+.progressbarr{
+ 
+  align-items: center;
+  margin-left: 100px;
+  margin-Right: 100px;
+  margin-bottom: 20px;
+}
+
+
+/***************Experience***********************/
+
+.experience-container{
+  display: flex;
+  align-items: center;
+  /* background-color: #d0d9d8; */
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 10px;
+  
+}
+
+
+.experience-info{
+  /* background-color: #d0d9d8; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 2;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.experience-info h1{
+  margin-top: 50px;
+  color: #000;
+  
 }
