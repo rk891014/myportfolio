@@ -25,28 +25,35 @@ export const Experience = () => {
                 <Card
                     title="Merkle Sokrati"
                     imageUrl={mrkl}
-                    body="Its a girls fitness app consisting of all homexercises. It is
-                    our own startup with a team of 5 people and it has beautiful
-                    UI design,shooted almost 300 excercises "
+                    body="Worked on their biggest client ultratech's app utec partner and utec. Developed new and
+                    complex screens and added custom animations. "
                     btntext = "Click Me"
+                    url="https://play.google.com/store/apps/details?id=com.ultratech.utec&hl=en_US"
+                    fromtowhen = "(Jan 2021 – Present)"
                     />
             </div>
             <div className="card-view" data-aos = "fade-right">
                 <Card
                     title="Gobal Free School"
                     imageUrl={gfs}
-                    body="A wedding app with integrated social media platorm on android
-                    studio using firebase. "
+                    body="Development of app dealing with REST Api calls,design and management
+                     of MYSQL database, managing resource load on server, features updated on app. 
+                     These platforms are used by institutes as a digital library."
                     btntext = "Click Me"
+                    url = "https://play.google.com/store/apps/details?id=com.global.studant&hl=en_US"
+                    fromtowhen = "(Oct 2020 – Jan 2021)"
                     />
             </div>
             <div className="card-view" data-aos = "fade-right">
                 <Card
                     title="Perfresh"
                     imageUrl={prfs}
-                    body="A wedding app with integrated social media platorm on android
-                    studio using firebase. "
+                    body="An E-commerse management system consisting of four applications -
+                    packing, delivery ,client and a customer app in which customer can
+                     order groceries, vegetables, cakes and daily essential items. "
                     btntext = "Click Me"
+                    url="https://play.google.com/store/apps/details?id=com.perfresh.food_delivering_app&hl=en_US"
+                    fromtowhen = "(May 2020 – Sep 2020)"
                     />
             </div>
             

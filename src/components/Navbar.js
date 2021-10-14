@@ -32,7 +32,10 @@ export const Navbar = () => {
                 <Link class="nav-link" to="ExperienceSection">Experience</Link>
               </li>
               <li class="nav-item">
-                <Link class="nav-link" to="contact">Contacts</Link>
+                <Link class="nav-link" to="contact">Contact Me</Link>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" target="_blank" href = "https://drive.google.com/file/d/1Hw4aDgERZazfzS0o_gFg9yGwx3lwh_sT/view">My Resume</a>
               </li>
             </ul>
           </div>

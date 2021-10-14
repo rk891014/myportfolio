@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Card({title,imageUrl,body,btntext}) {
+function Card({title,imageUrl,body,btntext,url,fromtowhen}) {
     return (
         <div className = "cards-container">
             <div className= "image-container">
@@ -9,10 +9,13 @@ function Card({title,imageUrl,body,btntext}) {
             <div className ="card-title">
                 <h3>{title}</h3>
             </div>
+            <div className ="card-subtitle">
+                <h4>{fromtowhen}</h4>
+            </div>
             <div className ="card-body">
                 <p>{body}</p>
             </div>
-            <a href="https://rkrjptrohit@gmail.com" target="_blank" className="btn-main-offer">{btntext}</a>
+            <a href={url} target="_blank" className="btn-main-offer">{btntext}</a>
         </div>
     )
 }

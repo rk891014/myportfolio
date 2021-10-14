@@ -37,11 +37,15 @@ export const AboutMe = () => {
 
         <div className="progressbarr" data-aos = "fade-left" >
                     <Progressbar
-                        title="Html5"
+                        title="DSA"
+                        value="65%"
+                        />
+                    <Progressbar
+                        title="Android Dev"
                         value="60%"
                         />
                         <Progressbar
-                        title="Css3"
+                        title="Web Dev"
                         value="50%"
                         />
                         <Progressbar
@@ -49,29 +53,27 @@ export const AboutMe = () => {
                         value="45%"
                         />
                         <Progressbar
-                        title="Android"
-                        value="70%"
-                        />
-                        <Progressbar
-                        title="Reactjs"
-                        value="60%"
-                        />
-                        <Progressbar
-                        title="Nodejs"
-                        value="50%"
-                        />
-                        <Progressbar
                         title="java"
                         value="70%"
                         />
-                        <Progressbar
-                        title="C"
-                        value="60%"
-                        />
+                        
                         <Progressbar
                         title="C++"
+                        value="75%"
+                        />
+                        <Progressbar
+                        title="MySql"
                         value="70%"
                         />
+                        <Progressbar
+                        title="Firebase"
+                        value="65%"
+                        />
+                        <Progressbar
+                        title="Jira"
+                        value="50%"
+                        />
+                        
                 </div>
         </div>   
     )

@@ -90,8 +90,8 @@ nav a.nav-link{
 }
 
 .myimage{
-  margin-top: 25px;
   z-index: 2;
+  
 }
 
 
@@ -248,6 +248,11 @@ nav a.nav-link{
   text-align: center;
 }
 
+.card-subtitle h4{
+  font-size: 13px;
+  margin-top: -10px;
+  margin-bottom: -12px;
+}
 .image-container img{
   overflow: hidden;
   height: 200px;

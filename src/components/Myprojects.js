@@ -26,10 +26,12 @@ export const Myprojects = () => {
                     <Card
                         title="FitCurve"
                         imageUrl={fitcurve}
-                        body="Its a girls fitness app consisting of all homexercises. It is
+                        body="Its a girls fitness app consisting of all home exercises. It is
                         our own startup with a team of 5 people and it has beautiful
-                        UI design,shooted almost 300 excercises "
+                        UI designs, shooted almost 300 excercises "
                         btntext = "View App"
+                        url="https://drive.google.com/u/0/uc?id=1n1EoBWi0rmwPYsy3juBgw-TcWv_1x2l6&export=download"
+                        fromtowhen = "(Aug 2019 – Dec 2019)"
                         />
                 </div>
                 <div className="card-view" data-aos = "fade-right">
@@ -39,11 +41,10 @@ export const Myprojects = () => {
                         body="A wedding app with integrated social media platorm on android
                         studio using firebase. "
                         btntext = "View App"
+                        url="https://drive.google.com/u/0/uc?id=11BOAdr9puhyMnzHEFmex7GIhZq4w7qlS&export=download"
+                        fromtowhen = "(Feb 2020 – April 2020)"
                         />
                 </div>
-                
-                
-            
             </div>
         </div>
 
