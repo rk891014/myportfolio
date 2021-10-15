@@ -1,5 +1,4 @@
 {
-  "homepage": "https://rk891014.github.io/my_portfolio-",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -15,7 +14,6 @@
     "aos": "^2.3.4",
     "bootstrap": "^5.1.2",
     "emailjs-com": "^3.2.0",
-    "gh-pages": "^3.2.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-parallax": "^3.3.0",
@@ -29,8 +27,6 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
