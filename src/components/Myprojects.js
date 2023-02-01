@@ -39,7 +39,7 @@ export const Myprojects = () => {
                         title="#Ashbhi"
                         imageUrl={wdng}
                         body="A wedding app with integrated social media platorm on android
-                        studio using firebase. "
+                        studio using firebase, which makes it a place to invite people in the marriage. "
                         btntext = "View App"
                         url="https://drive.google.com/u/0/uc?id=11BOAdr9puhyMnzHEFmex7GIhZq4w7qlS&export=download"
                         fromtowhen = "(Feb 2020 – April 2020)"

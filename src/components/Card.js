@@ -4,7 +4,7 @@ function Card({title,imageUrl,body,btntext,url,fromtowhen}) {
     return (
         <div className = "cards-container">
             <div className= "image-container">
-                <img src={imageUrl} alt=""></img>
+                <img src={imageUrl} alt="" style={{objectFit:"contain"}}></img>
             </div>
             <div className ="card-title">
                 <h3>{title}</h3>

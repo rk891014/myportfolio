@@ -45,12 +45,12 @@ export const AboutMe = () => {
                         value="60%"
                         />
                         <Progressbar
-                        title="Web Dev"
+                        title="Kotlin"
                         value="50%"
                         />
                         <Progressbar
-                        title="Javascript"
-                        value="45%"
+                        title="Web Dev"
+                        value="40%"
                         />
                         <Progressbar
                         title="java"
@@ -63,11 +63,11 @@ export const AboutMe = () => {
                         />
                         <Progressbar
                         title="MySql"
-                        value="70%"
+                        value="40%"
                         />
                         <Progressbar
                         title="Firebase"
-                        value="65%"
+                        value="50%"
                         />
                         <Progressbar
                         title="Jira"
