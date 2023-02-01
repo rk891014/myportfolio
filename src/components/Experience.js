@@ -52,7 +52,7 @@ export const Experience = () => {
                     imageUrl={gfs}
                     body="Development of app dealing with REST Api calls,design and management
                      of MYSQL database, managing resource load on server, features updated on app. 
-                     These platforms are used by institutes as a digital library. The aim is to provide world-class education content."
+                     These platforms are used by institutes as a digital library. The aim is to provide world-class education content"
                     btntext = "Click Me"
                     url = "https://play.google.com/store/apps/details?id=com.global.studant&hl=en_US"
                     fromtowhen = "(Oct 2020 – Jan 2021)"
