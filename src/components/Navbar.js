@@ -11,7 +11,7 @@ export const Navbar = () => {
           <a class="navbar-brand" >
           {/* <img class="logo" src={logo} alt="logo" /> */}
           <div class="logo">
-            <h4>rkrjptrohit@gmail.com ,     +919651804942</h4>
+            <span>rkrjptrohit@gmail.com , 9651804942</span>
           </div>
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,7 +35,7 @@ export const Navbar = () => {
                 <Link class="nav-link" to="contact">Contact Me</Link>
               </li>
               <li class="nav-item">
-                <a class="nav-link" target="_blank" href = "https://drive.google.com/file/d/1Hw4aDgERZazfzS0o_gFg9yGwx3lwh_sT/view">My Resume</a>
+                <a class="nav-link" target="_blank" href = "https://drive.google.com/file/d/1meyz6IGGBRWHblhA3NGfyrk6aaN8M3ZZ/view?usp=drivesdk">My Resume</a>
               </li>
             </ul>
           </div>
