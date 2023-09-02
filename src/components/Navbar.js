@@ -35,7 +35,7 @@ export const Navbar = () => {
                 <Link class="nav-link" to="contact">Contact Me</Link>
               </li>
               <li class="nav-item">
-                <a class="nav-link" target="_blank" href = "https://drive.google.com/file/d/1meyz6IGGBRWHblhA3NGfyrk6aaN8M3ZZ/view?usp=drivesdk">My Resume</a>
+                <a class="nav-link" target="_blank" href = "https://drive.google.com/file/d/1f64sG1GPTgC3SORAvn-UVZCRlPu7hy-r/view">My Resume</a>
               </li>
             </ul>
           </div>
